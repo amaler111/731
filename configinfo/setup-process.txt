@@ -1,0 +1,24 @@
+Welcome to Git (version 1.8.0-preview20121022)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git config --global color.ui true
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git config --global user.name amaler
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git config --global user.email git@git.com
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git clone https://github.com/amaler/trial.git  
+Cloning into 'trial'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$
