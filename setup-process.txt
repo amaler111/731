@@ -1,0 +1,61 @@
+amaler notes
+
+
+Welcome to Git (version 1.8.0-preview20121022)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git config --global color.ui true
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git config --global user.name amaler
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git config --global user.email git@git.com
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git clone https://github.com/amaler/trial.git
+Cloning into 'trial'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git clone https://github.com/amaler/trial.git
+fatal: destination path 'trial' already exists and is not an empty directory.
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ git clone https://github.com/amaler/trial2.git
+Cloning into 'trial2'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$ ssh-keygen -C "git@git.com" -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa):
+Created directory '/c/Users/Administrator/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Administrator/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Administrator/.ssh/id_rsa.pub.
+The key fingerprint is:
+59:15:3a:50:bb:49:69:d7:f7:75:55:1b:05:77:52:26 git@git.com
+
+Administrator@WIN-G3O78V938N6 /E/git-try (master)
+$
+
+
+
+git gui:
+add remote
+amaler
+https://github.com/amaler/trial.git
+
+可上传了
+
+
